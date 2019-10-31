@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# coding: utf-8
+# coding: utf-8
 from abc import ABC, abstractmethod, ABCMeta
 
 class AbsctractTable(ABC):
@@ -77,6 +77,3 @@ if __name__ == '__main__':
     chair = old_factory.create_chair()
     print('Num chairs: {}'.format(old_factory.chairs))
     print('Chair view: {}'.format(chair.chair_view()))
-
-
-
