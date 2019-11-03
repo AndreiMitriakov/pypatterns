@@ -7,7 +7,6 @@ from abc import ABC, abstractmethod
 Facade proposes a simple interface for a complex system.
 '''
 
-
 class Computer:
 
     def power_suply(self):
